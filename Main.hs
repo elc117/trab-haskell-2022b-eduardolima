@@ -82,5 +82,3 @@ main = do
     nLines <- randomBetween 1 333
     svg <- createSVG nCircles nRectangles nLines
     writeFile "output.svg" svg
-
-
